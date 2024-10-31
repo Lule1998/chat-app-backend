@@ -5,7 +5,7 @@ const { Configuration, OpenAIApi } = require('openai');
 
 const app = express();
 
-// CORS konfiguracija
+
 app.use(cors({
     origin: 'http://localhost:4200',  
     methods: ['GET', 'POST'],         
